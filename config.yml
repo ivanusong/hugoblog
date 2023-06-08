@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://ivan.show/blog"
 title: Ivan’s Blog
 paginate: 5
 theme: PaperMod
@@ -16,18 +16,18 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: Ivan’s Blog
+  description: "Ivan's Blog"
+  keywords: [Ivan, 任伊凡, 终身学习者]
+  author: Ivan
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -52,11 +52,11 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Ivan’s Blog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
+  # profile-mode 全屏落地页模式
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
@@ -73,24 +73,24 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "终身学习者 👋🏻"
+    Content: "偏爱编程技术的设计师。\n [file](ddddd)"
 
   socialIcons:
-    - name: twitter
+    - name: wechat
       url: "https://twitter.com/"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/ivanusong"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "任伊凡"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "任伊凡"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "任伊凡"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -98,8 +98,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://git.ivandesign.cn/ivan/blog/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://ivan.show/"
+    Text: "Edit" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -114,18 +114,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 1
     - identifier: categories
-      name: categories
+      name: Design
       url: /categories/
       weight: 10
     - identifier: tags
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: resume
+      name: Resume
+      url: https://ivan.show
       weight: 30
+    - identifier: sspai
+      name: Sspai
+      url: https://sspai.com/u/ivanusong/posts
+      weight: 35
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
