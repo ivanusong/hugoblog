@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -39,7 +39,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -88,23 +88,23 @@ params:
     # - name: youtube
     #   url: "https://ivandesign.cn/videos/me1.mp4"
 
-  analytics:
-    google:
-      SiteVerificationTag: "任伊凡"
-    bing:
-      SiteVerificationTag: "任伊凡"
-    yandex:
-      SiteVerificationTag: "任伊凡"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "任伊凡"
+  #   bing:
+  #     SiteVerificationTag: "任伊凡"
+  #   yandex:
+  #     SiteVerificationTag: "任伊凡"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://ivan.show/"
-    Text: "Edit" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://ivan.show/"
+  #   Text: "Edit" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
