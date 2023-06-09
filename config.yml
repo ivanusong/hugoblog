@@ -30,7 +30,7 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -74,15 +74,19 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "终身学习者 👋🏻"
-    Content: "偏爱编程技术的设计师。\n [file](ddddd)"
+    Content: "☀️ 技术流平面/UI设计师。    \n 💾 折腾 Python 与 JavaScript，也折腾 Linux 服务器、云计算、各类自动化工具。    \n 📚 一度痴迷于知识管理、项目管理、时间管理等各种统筹类事物。   \n 📖 爱阅读：爱读项目文档，爱读说明书。   \n 🏃🏻‍♀️ 也爱运动：每周坚持跑步是真的。"
 
   socialIcons:
-    - name: wechat
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: dribbble
+      url: "https://dribbble.com/ivanusong"
+    - name: behance
+      url: "https://behance.net/ivanusong"
     - name: github
       url: "https://github.com/ivanusong"
+    - name: tiktok
+      url: "https://www.douyin.com/user/MS4wLjABAAAAQD70nuIXIZ3yTy8iANVrIkGiqyvVCj2a3uja9YqpWBfbjSRti70Vz5NRskkeyLgR"
+    # - name: youtube
+    #   url: "https://ivandesign.cn/videos/me1.mp4"
 
   analytics:
     google:
@@ -114,20 +118,24 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: Home
+      name: Home
+      url: /
       weight: 1
-    - identifier: categories
-      name: Design
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: resume
-      name: Resume
+    - identifier: posts
+      name: Article
+      url: /posts/
+      weight: 2
+    # - identifier: categories
+    #   name: Design
+    #   url: /categories/
+    #   weight: 10
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    - identifier: about
+      name: About
       url: https://ivan.show
       weight: 30
     - identifier: sspai

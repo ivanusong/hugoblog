@@ -10,6 +10,25 @@
       <link>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ivan.show/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ivan.show/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aigc</title>
+      <link>https://ivan.show/blog/tags/aigc/</link>
+      <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/tags/aigc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://ivan.show/blog/tags/blog/</link>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/tags/blog/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

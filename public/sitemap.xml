@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ivan.show/blog/categories/</loc>
-  </url><url>
-    <loc>https://ivan.show/blog/posts/hugo-%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E6%A6%82%E8%A6%81/</loc>
+    <loc>https://ivan.show/blog/tags/aigc/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ivan.show/blog/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ivan.show/blog/posts/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivan.show/blog/posts/20230608215719/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ivan.show/blog/tags/</loc>
+    <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ivan.show/blog/posts/%E4%BD%BF%E7%94%A8-obsidian-%E6%90%AD%E9%85%8D-hexo-%E4%B8%8E%E9%98%BF%E9%87%8C%E4%BA%91-oss-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>https://ivan.show/blog/tags/blog/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivan.show/blog/posts/20220609215214/</loc>
+    <lastmod>2022-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivan.show/blog/posts/20220608123852/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ivan.show/blog/categories/</loc>
   </url>
 </urlset>
