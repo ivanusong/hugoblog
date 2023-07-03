@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Ivan’s Blog</title>
+    <link>https://ivan.show/blog/pages/</link>
+    <description>Recent content in Pages on Ivan’s Blog</description>
+    <image>
+      <title>Ivan’s Blog</title>
+      <url>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ivan.show/blog/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>联系方式</title>
+      <link>https://ivan.show/blog/pages/20230611180425/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/pages/20230611180425/</guid>
+      <description> E-mail: ivanusong@qq.com 电话：186-3801-7357 微信： </description>
+    </item>
+    
+    <item>
+      <title>历年作品集</title>
+      <link>https://ivan.show/blog/pages/20230610230903/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/pages/20230610230903/</guid>
+      <description>最近更新简历的时候，发现其实自己无论是否换工作，近些年每年都有在更新作品集，从简历里也能看到自己的进步，无论是设计技能，还是其它方面。
+趁这个机会，把自己历年的作品集拎出来复盘一下。
+早期作品 早期的设计因为硬盘格过一次，丢失了很多，但为了这篇文章，专门找出了一些以前的设计。放眼望去全是秘密麻麻的文字，审美满满都是年代感。
+2018 🔗 2018 作品集预览
+2020 🔗 2020 作品集预览
+2021 🔗 2021 作品集预览
+2022 🔗 2022 作品集预览
+2023 待补充 </description>
+    </item>
+    
+  </channel>
+</rss>

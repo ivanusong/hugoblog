@@ -11,7 +11,116 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ivan.show/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ivan.show/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>选一款 Figma 的平替：MasterGo</title>
+      <link>https://ivan.show/blog/posts/20230614224125/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/posts/20230614224125/</guid>
+      <description>与 Figma 的封锁无关，想要替换的原因主要基于三点：
+网络问题：虽然我自己是常年挂梯子，但是偶有给别人看稿件的时候，就可能存在关键时刻访问速度慢，影响体验的问题。 免费版功能少：虽然更多时候我是单兵作战，但是 Figma 的个人版文件管理还是很不方便，比如没有文件夹系统，而且一些组件也没办法调用，国内的就可以直接免费使用小团队版的。 中文字体：Figma 要使用中文字体的预览，必须下载特殊版本，如果使用原版，中文字体预览插件也很难用，随着熟练度的提示，渐渐希望直接在这种 web 形式的设计软件上开展工作，那么对中文支持的友好度就显得很关键。 因此，是时候选一款国产 UI 工具了。而目前三大 UI 设计软件自然就是：
+即时设计 Pixso MasterGo 其实很早就一直在这三款软件之间摇摆过多次，从素材资源丰富程度以及流畅性等都做过不少功课。最初对 MasterGo 是比较中意的，整体的设计细节更接近 Figma，而另外两款相互接近。喜欢 MasterGo 的一部分原因也有罗永浩的广告。
+但是其实从成熟度来看，即时设计的资源相对更全面一些，而 Pixso 更是有着其它两款都不具备的白板产品，有一股 FigJam 范儿。
+但是今天，我毫不犹豫选择了 MasterGo，为什么？
+我之前在使用 Figma 做 UI 设计时，设计过这么一个效果：一个无背景的框 + 渐变到透明的边线，如图所示：
+当时是用在这个产品中：
+但是由于我们的前端并不清楚这个渐变效果的代码，所以参考了 Figma 给出的代码：
+/* loveCard */ box-sizing: border-box; /* Auto layout */ display: flex; flex-direction: row; align-items: flex-start; padding: 15px; gap: 10px; width: 333px; height: 117px; border-radius: 5px; /* Inside auto layout */ flex: none; order: 1; align-self: stretch; flex-grow: 0; 大眼一看，就知道代码一定是错的。</description>
+    </item>
+    
+    <item>
+      <title>有鱼壁纸小程序</title>
+      <link>https://ivan.show/blog/works/20230613210756/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/works/20230613210756/</guid>
+      <description> 待补充。 </description>
+    </item>
+    
+    <item>
+      <title>有鱼说贺卡项目</title>
+      <link>https://ivan.show/blog/works/20230613210733/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/works/20230613210733/</guid>
+      <description>这是一个结合线上程序与线下产品的项目。简单描述就是：将印有唯一二维码的贺卡打包出售给花店之类的对贺卡有大量需求的 B 端商户，其中的二维码可以制作一个电子相册，同时可以带有商家的店铺信息。
+该项目涉及了多个部门的参与，从程序的 B 端、C 端研发，到实物贺卡的设计、印刷，到通过印码机器进行交付，整个流程相当繁杂。为此，我还特意通过 Python 写了至少几千行的脚本，分别用于多个交付环节的动作优化。
+未完待续 </description>
+    </item>
+    
+    <item>
+      <title>视频合成 UI 项目</title>
+      <link>https://ivan.show/blog/works/20230613203231/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/works/20230613203231/</guid>
+      <description>小程序名称：有鱼秀秀
+这是在抖音平台上做的一款小程序，通过上传一张照片（肖像），识别出照片中的人脸，然后与小程序已经准备好的视频模板进行合成，使用的外部接口及算力，所以整个等待的过程会比较久，在 UI 设计时要考虑好生成阶段的等待动画。</description>
+    </item>
+    
+    <item>
+      <title>趣味测试集小程序</title>
+      <link>https://ivan.show/blog/works/20230613205038/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/works/20230613205038/</guid>
+      <description>小程序，抖音搜索「有鱼趣测」。内含多个趣味测试，形式都是出几道题给回答，然后看广告后给出结果。部分 UI 如下：</description>
+    </item>
+    
+    <item>
+      <title>通过 SSH 连接 git 服务器</title>
+      <link>https://ivan.show/blog/posts/20230613215812/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/posts/20230613215812/</guid>
+      <description>[!Tip] 众所周知，SSH 连接 git 的速度是最快的，所以这里拿 github 为例，记录一下操作过程。
+先在本地生成证书：
+ssh-keygen -t rsa -b 4096 -C &amp;#34;ivanusong@qq.com&amp;#34; 或者直接使用 ssh-keygen 一路回车不改参数也可。
+把生成好的证书的公钥部分比如 id_rsa.pub 文件中的文本内容复制出来，粘贴到 github 的 ssh 设置中。
+cat id_rsa.pub # 输出后复制文本 之后设置本地的 ssh 配置文件，将以下内容加入进配置中，其中证书路径要使用你的私钥：
+Host github.com HostName github.com User git IdentityFile ~/.ssh/id_rsa 最后使用 ssh -T git@github.com 命令测试一下连接，看到下方提示则配置成功：</description>
+    </item>
+    
+    <item>
+      <title>联系方式</title>
+      <link>https://ivan.show/blog/pages/20230611180425/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/pages/20230611180425/</guid>
+      <description> E-mail: ivanusong@qq.com 电话：186-3801-7357 微信： </description>
+    </item>
+    
+    <item>
+      <title>tailwindcss 与 bootstrap 的区别</title>
+      <link>https://ivan.show/blog/posts/20230610110817/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/posts/20230610110817/</guid>
+      <description>Tailwindcss（以下简称 td） 与 Bootstrap （以下简称 bs）走的是两个不同的方向。
+相对来说，bs 更常见，属于组件库，把写好的组件封装好直接调用，速度快，但是灵活度低，整个 UI 基于 bs 维护团队的审美。
+而 td 像是原生 css 与组件库之间的一个桥梁，自由度高，几乎接近原生的 css，却有着使用样式库开发的速度。
+因为两者都是在 class 上下功夫的样式库，天然就是互斥的，大多情况下只能二选一，所以问题就是，何时选用哪个框架？
+选用组件库的目的是为了开发提速，而提速自然会考虑使用框架，使用框架的话，就需要对视觉做妥协，前提是没有 UI 设计师的情况下，如果有设计师的话，更多会按照设计师的具体要求来做，这时用组件库就很难满足需求，而用 tr 就可以在开发提速的同时，满足具体的样式调整。
+总体来说，如果对时间有要求，优先考虑 bs 或是其他组件库。如果对视觉有要求，则可以考虑 tr。而且现在也有开源的支持 tr 的组件库比如：DaysyUI。</description>
+    </item>
+    
+    <item>
+      <title>历年作品集</title>
+      <link>https://ivan.show/blog/pages/20230610230903/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/pages/20230610230903/</guid>
+      <description>最近更新简历的时候，发现其实自己无论是否换工作，近些年每年都有在更新作品集，从简历里也能看到自己的进步，无论是设计技能，还是其它方面。
+趁这个机会，把自己历年的作品集拎出来复盘一下。
+早期作品 早期的设计因为硬盘格过一次，丢失了很多，但为了这篇文章，专门找出了一些以前的设计。放眼望去全是秘密麻麻的文字，审美满满都是年代感。
+2018 🔗 2018 作品集预览
+2020 🔗 2020 作品集预览
+2021 🔗 2021 作品集预览
+2022 🔗 2022 作品集预览
+2023 待补充 </description>
+    </item>
+    
     <item>
       <title>Stable Diffusion 的部署</title>
       <link>https://ivan.show/blog/posts/20230608215719/</link>
@@ -52,6 +161,29 @@ baseURL: &amp;#34;https://examplesite.com/&amp;#34; title: ExampleSite paginate:
 ln -s &amp;#34;~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Ivan’s wiki/100-Project/博客文章&amp;#34; &amp;#34;~/Desktop/Hexo/source/_post&amp;#34; 此时再使用 npx hexo g 生成即可准确识别到 md 文档，下一步是自动发布到阿里云的 OSS。
 部署到 OSS 因为阿里云 OSS 的首页是简历，所以博客部分通过创建一个新的 blog 子文件夹来存放，而发布过程需要一个 hexo 部署插件：hexo-deployer-ali-oss
 执行模块的安装：npm i hexo-deployer-ali-oss --save 修改配置文件 _config.</description>
+    </item>
+    
+    <item>
+      <title>利用 Python 搭配 Adobe Illustrator 设计一款包含阴历与节气的日历</title>
+      <link>https://ivan.show/blog/posts/20201025085806/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/posts/20201025085806/</guid>
+      <description>Ai 不像 CDR 一样有日历插件（有脚本但是不好用）。百度谷歌搜索出的教程基本没有带阴历日期的，更不要说直接包含节日、节气等，基本都是手动操作。而在漫天广告里学习到的 Python 技能，在这里终于有了用武之地。
+采集数据 要做包含阴历的日历，首先要准备日期数据，百度搜索到的数据，要么不能用、要么不全面，要么就是根本就是网页版的，比如你在百度中搜「日历」，出现的下图中的界面：
+没错，其实百度这个数据还是蛮全面的，但是我需要的是纯文本或者表格之类的数据，所以先看一下能不能通过抓包找到它调用的后台数据。
+打开浏览器自带的「开发者工具」，跳到 Network 选项卡，随便点个月份，找一下调用接口。
+直接是 json 格式的数据，我把这个请求导入到 Postman 中，看看请求需不需要授权信息什么的，还是说匿名请求就可以：
+在 Postman 中多次请求发现，多数参数都可以是非必要的，红圈中的参数都可以去掉。同时经过测试，请求头 header 部分也可以全部忽略：
+但是这些数据过多，肯定需要将数据重组，做成我需要的格式，这时候就需要用到 Python 或者是一些其它你比较熟悉的语言，目标一定是快速高效。
+Python 脚本 第一步可以直接使用 Postman 的 Code 功能为你生成一份简单的请求脚本：
+然后拿出你熟悉的编辑器或者 IDE，我这里使用的是 VSCode，当然提前已配置好了 Python 环境，先跑一遍生成后的脚本看有没有什么问题。
+OK 虽然都是乱码，但可以成功请求到，然后简单处理一下脚本，就可以让它输出成我们想要到内容。
+因为设计日历的时候，如果出现节日、节气、或者标记阴历月份，会占用到阴历位置，而分析发现百度在阴历部分有一个自己的优先级：
+其中的字段分别是 term &amp;gt; desc &amp;gt; value &amp;gt; lDate
+另外还有一个前提就是，不能超最大 4 个汉字，如果超出，则按照优先级往下，如果全部超出，则最终显示阴历日期。
+最终的脚本将让使用者自己输入起始年份月份与结束年份月份，抓取到的信息将以 csv 的格式存储为一个表格文件。
+使用脚本 Mac 系统下有现成的 Python 环境，直接使用 python3 脚本名称.py 命令，会在同目录下，生成一个 csv 的表格文件，该文件存放的就是我们最终要使用的日历数据。如果提示没有 requests 模块，输入 pip3 install requests 安装即可。</description>
     </item>
     
   </channel>

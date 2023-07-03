@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>前端 on Ivan’s Blog</title>
+    <link>https://ivan.show/blog/tags/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in 前端 on Ivan’s Blog</description>
+    <image>
+      <title>Ivan’s Blog</title>
+      <url>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ivan.show/blog/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tailwindcss 与 bootstrap 的区别</title>
+      <link>https://ivan.show/blog/posts/20230610110817/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/posts/20230610110817/</guid>
+      <description>Tailwindcss（以下简称 td） 与 Bootstrap （以下简称 bs）走的是两个不同的方向。
+相对来说，bs 更常见，属于组件库，把写好的组件封装好直接调用，速度快，但是灵活度低，整个 UI 基于 bs 维护团队的审美。
+而 td 像是原生 css 与组件库之间的一个桥梁，自由度高，几乎接近原生的 css，却有着使用样式库开发的速度。
+因为两者都是在 class 上下功夫的样式库，天然就是互斥的，大多情况下只能二选一，所以问题就是，何时选用哪个框架？
+选用组件库的目的是为了开发提速，而提速自然会考虑使用框架，使用框架的话，就需要对视觉做妥协，前提是没有 UI 设计师的情况下，如果有设计师的话，更多会按照设计师的具体要求来做，这时用组件库就很难满足需求，而用 tr 就可以在开发提速的同时，满足具体的样式调整。
+总体来说，如果对时间有要求，优先考虑 bs 或是其他组件库。如果对视觉有要求，则可以考虑 tr。而且现在也有开源的支持 tr 的组件库比如：DaysyUI。</description>
+    </item>
+    
+  </channel>
+</rss>

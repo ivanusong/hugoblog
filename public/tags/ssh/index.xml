@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SSH on Ivan’s Blog</title>
+    <link>https://ivan.show/blog/tags/ssh/</link>
+    <description>Recent content in SSH on Ivan’s Blog</description>
+    <image>
+      <title>Ivan’s Blog</title>
+      <url>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ivan.show/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ivan.show/blog/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过 SSH 连接 git 服务器</title>
+      <link>https://ivan.show/blog/posts/20230613215812/</link>
+      <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivan.show/blog/posts/20230613215812/</guid>
+      <description>[!Tip] 众所周知，SSH 连接 git 的速度是最快的，所以这里拿 github 为例，记录一下操作过程。
+先在本地生成证书：
+ssh-keygen -t rsa -b 4096 -C &amp;#34;ivanusong@qq.com&amp;#34; 或者直接使用 ssh-keygen 一路回车不改参数也可。
+把生成好的证书的公钥部分比如 id_rsa.pub 文件中的文本内容复制出来，粘贴到 github 的 ssh 设置中。
+cat id_rsa.pub # 输出后复制文本 之后设置本地的 ssh 配置文件，将以下内容加入进配置中，其中证书路径要使用你的私钥：
+Host github.com HostName github.com User git IdentityFile ~/.ssh/id_rsa 最后使用 ssh -T git@github.com 命令测试一下连接，看到下方提示则配置成功：</description>
+    </item>
+    
+  </channel>
+</rss>
