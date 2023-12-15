@@ -1,4 +1,4 @@
-baseURL: "https://ivan.show/blog"
+baseURL: "https://ivan.show/"
 title: Ivan’s Blog
 paginate: 5
 theme: PaperMod
@@ -11,144 +11,144 @@ buildExpired: false
 # googleAnalytics: UA-123-45
 
 minify:
-  disableXML: true
-  minifyOutput: true
+    disableXML: true
+    minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Ivan’s Blog
-  description: "Ivan's Blog"
-  keywords: [Ivan, 任伊凡, 终身学习者]
-  author: Ivan
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "2006-01-02"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Ivan’s Blog
+    description: "Ivan's Blog"
+    keywords: [Ivan, 任伊凡, 终身学习者]
+    author: Ivan
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "2023-12-15"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  tocopen: false
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowWordCount: true
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: true
+    tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Ivan’s Blog"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    label:
+        text: "Ivan’s Blog"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
 
-  # profile-mode 全屏落地页模式
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    # profile-mode 全屏落地页模式
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: 终身学习者
+        subtitle: "不做码农的设计不是好产品"
+        imageUrl: "<img location>"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
 
-  # home-info mode
-  homeInfoParams:
-    Title: "终身学习者 👋🏻"
-    Content: "☀️ 技术流平面/UI设计师。    \n 💾 折腾 Python 与 JavaScript，也折腾 Linux 服务器、云计算、各类自动化工具。    \n 📚 一度痴迷于知识管理、项目管理、时间管理等各种统筹类事物。   \n 📖 爱阅读：爱读项目文档，爱读说明书。   \n 🏃🏻‍♀️ 也爱运动：每周坚持跑步是真的。"
+    # home-info mode
+    homeInfoParams:
+        Title: "终身学习者 👋🏻"
+        Content: "☀️ 技术流平面/UI设计师。    \n 💾 折腾 Python 与 JavaScript，也折腾 Linux 服务器、云计算、各类自动化工具。    \n 📚 一度痴迷于知识管理、项目管理、时间管理等各种统筹类事物。   \n 📖 爱阅读：爱读项目文档，爱读说明书。   \n 🏃🏻‍♀️ 也爱运动：每周坚持跑步是真的。"
 
-  socialIcons:
-    - name: dribbble
-      url: "https://dribbble.com/ivanusong"
-    - name: behance
-      url: "https://behance.net/ivanusong"
-    - name: github
-      url: "https://github.com/ivanusong"
-    - name: tiktok
-      url: "https://www.douyin.com/user/MS4wLjABAAAAQD70nuIXIZ3yTy8iANVrIkGiqyvVCj2a3uja9YqpWBfbjSRti70Vz5NRskkeyLgR"
-    # - name: youtube
-    #   url: "https://ivandesign.cn/videos/me1.mp4"
+    socialIcons:
+        - name: dribbble
+          url: "https://dribbble.com/ivanusong"
+        - name: behance
+          url: "https://behance.net/ivanusong"
+        - name: github
+          url: "https://github.com/ivanusong"
+        - name: tiktok
+          url: "https://www.douyin.com/user/MS4wLjABAAAAQD70nuIXIZ3yTy8iANVrIkGiqyvVCj2a3uja9YqpWBfbjSRti70Vz5NRskkeyLgR"
+        # - name: youtube
+        #   url: "https://ivandesign.cn/videos/me1.mp4"
 
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "任伊凡"
-  #   bing:
-  #     SiteVerificationTag: "任伊凡"
-  #   yandex:
-  #     SiteVerificationTag: "任伊凡"
+    # analytics:
+    #   google:
+    #     SiteVerificationTag: "任伊凡"
+    #   bing:
+    #     SiteVerificationTag: "任伊凡"
+    #   yandex:
+    #     SiteVerificationTag: "任伊凡"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
 
-  # editPost:
-  #   URL: "https://ivan.show/"
-  #   Text: "Edit" # edit text
-  #   appendFilePath: true # to append file path to Edit link
+    # editPost:
+    #   URL: "https://ivan.show/"
+    #   Text: "Edit" # edit text
+    #   appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
 menu:
-  main:
-    - identifier: Home
-      name: Home
-      url: /
-      weight: 1
-    - identifier: posts
-      name: Article
-      url: /posts/
-      weight: 2
-    # - identifier: categories
-    #   name: Design
-    #   url: /categories/
-    #   weight: 10
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
-    - identifier: about
-      name: About
-      url: https://ivan.show
-      weight: 30
-    - identifier: sspai
-      name: Sspai
-      url: https://sspai.com/u/ivanusong/posts
-      weight: 35
+    main:
+        - identifier: Home
+          name: Home
+          url: /
+          weight: 1
+        - identifier: posts
+          name: Article
+          url: /posts
+          weight: 2
+        - identifier: categories
+          name: Design
+          url: /works
+          weight: 10
+        # - identifier: tags
+        #   name: tags
+        #   url: /tags/
+        #   weight: 20
+        - identifier: about
+          name: About
+          url: /pages/contact
+          weight: 30
+        - identifier: sspai
+          name: Sspai
+          url: https://sspai.com/u/ivanusong/posts
+          weight: 35
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
