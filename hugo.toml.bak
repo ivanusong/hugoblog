@@ -1,4 +1,0 @@
-baseURL = 'http://ivan.show/'
-languageCode = 'zh-cn'
-title = 'Ivan’s Blog'
-theme = 'PaperMod'
